@@ -262,6 +262,7 @@ atomic_tests:
     name: command_prompt
     elevation_required: true
 - name: Copy NTDS in low level NTFS acquisition via MFT parsing
+  auto_generated_guid: f57cb283-c131-4e2f-8a6c-363d575748b2
   description: |
     This test is intended to be run on a domain Controller.
 
@@ -290,6 +291,7 @@ atomic_tests:
       remove-item "#{extract_path}\SYSTEM_HIVE" -force -erroraction silentlycontinue
 
 - name: Copy NTDS in low level NTFS acquisition via fsutil
+  auto_generated_guid: c7be89f7-5d06-4321-9f90-8676a77e0502
   description: |
     This test is intended to be run on a domain Controller.
 

@@ -1778,6 +1778,8 @@
   - Atomic Test #7: Create Volume Shadow Copy with Powershell [windows]
   - Atomic Test #8: Create Symlink to Volume Shadow Copy [windows]
   - Atomic Test #9: Create Volume Shadow Copy with diskshadow [windows]
+  - Atomic Test #10: Copy NTDS in low level NTFS acquisition via MFT parsing [windows]
+  - Atomic Test #11: Copy NTDS in low level NTFS acquisition via fsutil [windows]
 - [T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting](../../T1558.003/T1558.003.md)
   - Atomic Test #1: Request for service tickets [windows]
   - Atomic Test #2: Rubeus kerberoast [windows]
